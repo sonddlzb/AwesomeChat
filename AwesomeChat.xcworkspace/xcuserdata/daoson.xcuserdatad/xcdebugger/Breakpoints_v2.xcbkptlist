@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4BA1FA64-29D5-4B31-80F6-FFFC5EFCB018"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61B81F0A-E246-4155-8666-B230445AE287"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/SignIn/SignInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "311"
+            endingLineNumber = "311"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "61B81F0A-E246-4155-8666-B230445AE287 - c3aca9464dd45154"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.UIViewController&gt;) -&gt; () in AwesomeChat.SignInViewController.bindViewModel() -&gt; ()"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/SignIn/SignInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "311"
+                  endingLineNumber = "311"
+                  offsetFromSymbolStart = "496">
+               </Location>
+               <Location
+                  uuid = "61B81F0A-E246-4155-8666-B230445AE287 - c3aca9464dd45154"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;__C.UIViewController&gt;) -&gt; () in AwesomeChat.SignInViewController.bindViewModel() -&gt; ()"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/SignIn/SignInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "311"
+                  endingLineNumber = "311"
+                  offsetFromSymbolStart = "644">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A37B0BEE-4BC6-47AF-AB0B-2EAEF1A44273"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/SignIn/SignInViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "transform(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A37B0BEE-4BC6-47AF-AB0B-2EAEF1A44273 - 6db3373541388796"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIViewController in AwesomeChat.SignInViewModel.transform(AwesomeChat.SignInViewModel.Input) -&gt; AwesomeChat.SignInViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/SignIn/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "A37B0BEE-4BC6-47AF-AB0B-2EAEF1A44273 - 6db3373541388612"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UIViewController in AwesomeChat.SignInViewModel.transform(AwesomeChat.SignInViewModel.Input) -&gt; AwesomeChat.SignInViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/SignIn/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "A37B0BEE-4BC6-47AF-AB0B-2EAEF1A44273 - c0f80028473d5d2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; RxSwift.Observable&lt;Swift.Optional&lt;__C.UIViewController&gt;&gt; in AwesomeChat.SignInViewModel.transform(AwesomeChat.SignInViewModel.Input) -&gt; AwesomeChat.SignInViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/SignIn/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "85175084-ADDC-471F-BF35-5B0AA1246F4D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/SignUp/SignUpViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "transform(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16091955-877C-4AAC-B62C-DC120C0F4F45"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Model/UserInfoHelper.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "validInfo(userInfor:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "16091955-877C-4AAC-B62C-DC120C0F4F45 - cce0fee2c1581565"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;AwesomeChat.SignState&gt;) -&gt; RxSwift.Disposable in AwesomeChat.UserInfoHelper.validInfo(userInfor: AwesomeChat.UserInfo) -&gt; RxSwift.Observable&lt;AwesomeChat.SignState&gt;"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Model/UserInfoHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "16091955-877C-4AAC-B62C-DC120C0F4F45 - cce0fee2c15815ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;AwesomeChat.SignState&gt;) -&gt; RxSwift.Disposable in AwesomeChat.UserInfoHelper.validInfo(userInfor: AwesomeChat.UserInfo) -&gt; RxSwift.Observable&lt;AwesomeChat.SignState&gt;"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Model/UserInfoHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "16091955-877C-4AAC-B62C-DC120C0F4F45 - cce0fee2c15815ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;AwesomeChat.SignState&gt;) -&gt; RxSwift.Disposable in AwesomeChat.UserInfoHelper.validInfo(userInfor: AwesomeChat.UserInfo) -&gt; RxSwift.Observable&lt;AwesomeChat.SignState&gt;"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Model/UserInfoHelper.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89A220DD-077D-4A65-889E-4A43B604B7F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/SignIn/SignInNavigator.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "presentAlert(signState:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "89A220DD-077D-4A65-889E-4A43B604B7F7 - 3981d5fc4a5ec12d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.SignInNavigator.presentAlert(signState: AwesomeChat.SignState) -&gt; __C.UIAlertController"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/SignIn/SignInNavigator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "89A220DD-077D-4A65-889E-4A43B604B7F7 - 3981d5fc4a5ec1ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.SignInNavigator.presentAlert(signState: AwesomeChat.SignState) -&gt; __C.UIAlertController"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/SignIn/SignInNavigator.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB41829B-1FAF-4C72-AB2E-08D6B2174CBC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Home/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BB41829B-1FAF-4C72-AB2E-08D6B2174CBC - 7d919d85eb205161"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;AwesomeChat.UserInfo&gt;) -&gt; () in AwesomeChat.HomeViewController.bindViewModel() -&gt; ()"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "BB41829B-1FAF-4C72-AB2E-08D6B2174CBC - 7d919d85eb205161"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;AwesomeChat.UserInfo&gt;) -&gt; () in AwesomeChat.HomeViewController.bindViewModel() -&gt; ()"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "BB41829B-1FAF-4C72-AB2E-08D6B2174CBC - 7d919d85eb205161"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;AwesomeChat.UserInfo&gt;) -&gt; () in AwesomeChat.HomeViewController.bindViewModel() -&gt; ()"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Home/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "84"
+                  endingLineNumber = "84"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9911AD14-E9B3-41A3-8A56-52A5DDA567BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/SignIn/SignInViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "transform(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9911AD14-E9B3-41A3-8A56-52A5DDA567BE - 2c016db93aa1088e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AwesomeChat.UserInfo&gt;, AwesomeChat.SignState) -&gt; Swift.Optional&lt;__C.UIViewController&gt; in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; RxSwift.Observable&lt;Swift.Optional&lt;__C.UIViewController&gt;&gt; in AwesomeChat.SignInViewModel.transform(AwesomeChat.SignInViewModel.Input) -&gt; AwesomeChat.SignInViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/SignIn/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "9911AD14-E9B3-41A3-8A56-52A5DDA567BE - 2c016db93aa1088e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;AwesomeChat.UserInfo&gt;, AwesomeChat.SignState) -&gt; Swift.Optional&lt;__C.UIViewController&gt; in closure #1 (Swift.Optional&lt;Swift.String&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; RxSwift.Observable&lt;Swift.Optional&lt;__C.UIViewController&gt;&gt; in AwesomeChat.SignInViewModel.transform(AwesomeChat.SignInViewModel.Input) -&gt; AwesomeChat.SignInViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/SignIn/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,10 @@
+*.xcodeproj/
+*.xcworkspace/
+*.DS_Store
+fastlane/report.xml
+*.ipa
+*.dsym
+*.dsym.zip
+Pods/
+xcuserdata
+*.generated.swift
