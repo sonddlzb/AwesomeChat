@@ -25,6 +25,9 @@
 		C8EE20D12B9335C8004502BC /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20D02B9335C8004502BC /* SignUpViewModel.swift */; };
 		C8EE20D42B94BEDC004502BC /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20D32B94BEDC004502BC /* UserInfo.swift */; };
 		C8EE20D62B94BF15004502BC /* UserInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20D52B94BF15004502BC /* UserInfoHelper.swift */; };
+		C8EE20D92B975A93004502BC /* UIViewConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20D82B975A93004502BC /* UIViewConstraints.swift */; };
+		C8EE20DB2B977658004502BC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20DA2B977658004502BC /* Message.swift */; };
+		C8EE20DE2B977A34004502BC /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20DD2B977A34004502BC /* MessageCell.swift */; };
 		F420D66D990E1430FFABED67 /* Pods_AwesomeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672359DC84420D612AB83635 /* Pods_AwesomeChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +55,9 @@
 		C8EE20D02B9335C8004502BC /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		C8EE20D32B94BEDC004502BC /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		C8EE20D52B94BF15004502BC /* UserInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoHelper.swift; sourceTree = "<group>"; };
+		C8EE20D82B975A93004502BC /* UIViewConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewConstraints.swift; sourceTree = "<group>"; };
+		C8EE20DA2B977658004502BC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C8EE20DD2B977A34004502BC /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		C822017A2B9212BF00A1E236 /* AwesomeChat */ = {
 			isa = PBXGroup;
 			children = (
+				C8EE20D72B975A78004502BC /* Stevia+Ext */,
 				C8EE20D22B94BECB004502BC /* Model */,
 				C82201982B92206D00A1E236 /* Scenes */,
 				C82201952B921FAF00A1E236 /* Application */,
@@ -149,6 +156,7 @@
 		C8EE20C42B9225AD004502BC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C8EE20DC2B977A18004502BC /* Cell */,
 				C8EE20C52B9225BE004502BC /* HomeViewController.swift */,
 				C8EE20C72B9225D2004502BC /* HomeNavigator.swift */,
 				C8EE20C92B9225DC004502BC /* HomeViewModel.swift */,
@@ -171,8 +179,25 @@
 			children = (
 				C8EE20D32B94BEDC004502BC /* UserInfo.swift */,
 				C8EE20D52B94BF15004502BC /* UserInfoHelper.swift */,
+				C8EE20DA2B977658004502BC /* Message.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C8EE20D72B975A78004502BC /* Stevia+Ext */ = {
+			isa = PBXGroup;
+			children = (
+				C8EE20D82B975A93004502BC /* UIViewConstraints.swift */,
+			);
+			path = "Stevia+Ext";
+			sourceTree = "<group>";
+		};
+		C8EE20DC2B977A18004502BC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C8EE20DD2B977A34004502BC /* MessageCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,13 +355,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C82201802B9212BF00A1E236 /* ViewController.swift in Sources */,
+				C8EE20D92B975A93004502BC /* UIViewConstraints.swift in Sources */,
 				C8EE20CA2B9225DC004502BC /* HomeViewModel.swift in Sources */,
+				C8EE20DB2B977658004502BC /* Message.swift in Sources */,
 				C822019E2B9220F700A1E236 /* SignInViewModel.swift in Sources */,
 				C822017C2B9212BF00A1E236 /* AppDelegate.swift in Sources */,
 				C82201A02B92211400A1E236 /* SignInNavigator.swift in Sources */,
 				C822019C2B92209800A1E236 /* ViewModelType.swift in Sources */,
 				C8EE20D12B9335C8004502BC /* SignUpViewModel.swift in Sources */,
 				C8EE20CD2B9335B1004502BC /* SignUpViewController.swift in Sources */,
+				C8EE20DE2B977A34004502BC /* MessageCell.swift in Sources */,
 				C8EE20C62B9225BE004502BC /* HomeViewController.swift in Sources */,
 				C8EE20CF2B9335BD004502BC /* SignUpNavigator.swift in Sources */,
 				C8EE20D62B94BF15004502BC /* UserInfoHelper.swift in Sources */,

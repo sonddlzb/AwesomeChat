@@ -370,12 +370,14 @@ extension SignUpViewController {
             .drive( onNext: {[weak self] in
                 self?.navigationController?.popViewController(animated: true)
             })
-            .disposed(by: self.disposeBag)
+            .disposed(by: disposeBag)
 
         let didChangeInfor = Observable.combineLatest(
             nameTextField.rx.text.asObservable(),
             emailTextField.rx.text.asObservable(),
             passwordTextField.rx.text.asObservable())
+
+        // MARK: - use withLatestForm
         let didTapSignUp = signUpButton.rx.tap
             .asObservable()
             .map { [weak self] in
