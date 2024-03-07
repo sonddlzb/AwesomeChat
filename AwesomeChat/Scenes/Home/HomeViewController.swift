@@ -302,6 +302,11 @@ class HomeViewController: UIViewController {
             .methodInvoked(#selector(viewWillAppear(_:)))
             .map { _ in () }
 
+        let didTapCell = tableView.rx.modelSelected(Message.self).asObservable()
+
+        let output = viewModel.transform(.init(viewWillAppear: viewWillAppear, 
+                                               didTapCell: didTapCell))
+
         let dataSource = RxTableViewSectionedReloadDataSource<SectionModel<String, Message>>(
             configureCell: { _, tableView, indexPath, message in
             let cell = tableView.dequeueCell(type: MessageCell.self, indexPath: indexPath)
@@ -309,12 +314,18 @@ class HomeViewController: UIViewController {
             return cell
         })
 
-        let output = viewModel.transform(.init(viewWillAppear: viewWillAppear))
         output.bindTableData
             .map {
                 [SectionModel(model: "Section", items: $0)]
             }
             .bind(to: tableView.rx.items(dataSource: dataSource))
+            .disposed(by: disposeBag)
+
+        output.pushToChat
+            .asDriver(onErrorDriveWith: .empty())
+            .drive(onNext: { [weak self] chatVC in
+                self?.navigationController?.pushViewController(chatVC, animated: true)
+            })
             .disposed(by: disposeBag)
     }
 }

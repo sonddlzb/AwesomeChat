@@ -61,19 +61,27 @@ class HomeViewModel {
 extension HomeViewModel: ViewModelType {
     struct Input {
         let viewWillAppear: Observable<Void>
+        let didTapCell: Observable<Message>
     }
 
     struct Output {
         let bindTableData: Observable<[Message]>
+        let pushToChat: Observable<ChatViewController>
     }
 
     func transform(_ input: Input) -> Output {
         let listMessages = self.listMessages
+        let navigator = self.navigator
         let bindTableData: Observable<[Message]> = input.viewWillAppear
             .map {
                 return listMessages
             }
 
-        return .init(bindTableData: bindTableData)
+        let pushToChat = input.didTapCell
+            .map { message in
+                return navigator.pushToChat(message: message)
+            }
+
+        return .init(bindTableData: bindTableData, pushToChat: pushToChat)
     }
 }
