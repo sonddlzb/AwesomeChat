@@ -9,6 +9,7 @@ import UIKit
 import Stevia
 import RxSwift
 import RxCocoa
+import RxDataSources
 
 class HomeViewController: UIViewController {
     var viewModel: HomeViewModel
@@ -53,9 +54,8 @@ class HomeViewController: UIViewController {
         styleViews()
         bindViewModel()
 
-        tableView.register(MessageCell.self, forCellReuseIdentifier: "MessageCell")
-        tableView.rx.setDelegate(self)
-            .disposed(by: self.disposeBag)
+        tableView.registerCell(type: MessageCell.self)
+        tableView.rx.rowHeight.onNext(92)
     }
 
     override func viewDidLayoutSubviews() {
@@ -293,33 +293,28 @@ class HomeViewController: UIViewController {
         tableView.style {
             $0.separatorStyle = .none
             $0.backgroundColor = .clear
+            $0.contentInset = UIEdgeInsets(top: 0.0, left: 0.0, bottom: 110.0, right: 0.0)
         }
     }
 
     private func bindViewModel() {
-        let viewDidLoad = rx
+        let viewWillAppear = rx
             .methodInvoked(#selector(viewWillAppear(_:)))
             .map { _ in () }
 
-        let output = viewModel.transform(.init(viewDidLoad: viewDidLoad))
-        output.bindTableData
-            .bind(to: tableView.rx.items) { tableView, index, message in
-                let indexPath = IndexPath(row: index, section: 0)
-                let id = "MessageCell"
-                if let cell = tableView.dequeueReusableCell(withIdentifier: id, for: indexPath)
-                    as? MessageCell {
-                    cell.bind(message: message)
-                    return cell
-                } else {
-                    return UITableViewCell()
-                }
-            }
-            .disposed(by: disposeBag)
-    }
-}
+        let dataSource = RxTableViewSectionedReloadDataSource<SectionModel<String, Message>>(
+            configureCell: { _, tableView, indexPath, message in
+            let cell = tableView.dequeueCell(type: MessageCell.self, indexPath: indexPath)
+            cell.bind(message: message)
+            return cell
+        })
 
-extension HomeViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 92.0
+        let output = viewModel.transform(.init(viewWillAppear: viewWillAppear))
+        output.bindTableData
+            .map {
+                [SectionModel(model: "Section", items: $0)]
+            }
+            .bind(to: tableView.rx.items(dataSource: dataSource))
+            .disposed(by: disposeBag)
     }
 }

@@ -1,8 +1,13 @@
 PODS:
+  - Differentiator (5.0.0)
   - R.swift (7.3.2)
   - RxCocoa (6.6.0):
     - RxRelay (= 6.6.0)
     - RxSwift (= 6.6.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - RxRelay (6.6.0):
     - RxSwift (= 6.6.0)
   - RxSwift (6.6.0)
@@ -12,27 +17,32 @@ PODS:
 DEPENDENCIES:
   - R.swift
   - RxCocoa
+  - RxDataSources
   - RxSwift
   - SteviaLayout
   - SwiftLint
 
 SPEC REPOS:
   trunk:
+    - Differentiator
     - R.swift
     - RxCocoa
+    - RxDataSources
     - RxRelay
     - RxSwift
     - SteviaLayout
     - SwiftLint
 
 SPEC CHECKSUMS:
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   R.swift: 0af0d882f49f03711415cb4e5215daa977d8a480
   RxCocoa: 44a80de90e25b739b5aeaae3c8c371a32e3343cc
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
   RxRelay: 45eaa5db8ee4fb50e5ebd57deec0159e97fa51e6
   RxSwift: a4b44f7d24599f674deebd1818eab82e58410632
   SteviaLayout: 05424e528d643657d39ce72c786e4adf13cfc5f2
   SwiftLint: c1de071d9d08c8aba837545f6254315bc900e211
 
-PODFILE CHECKSUM: 2bd29257c3f1d265fbd7bc9cf68a5cebdf1cac86
+PODFILE CHECKSUM: ff2f1d0271eee436f62d5ee84e5fd9c04645b9b8
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.0

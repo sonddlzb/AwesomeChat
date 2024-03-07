@@ -11,4 +11,5 @@ target 'AwesomeChat' do
     pod 'SteviaLayout'
     pod 'SwiftLint'
     pod 'R.swift'
+    pod 'RxDataSources'
 end

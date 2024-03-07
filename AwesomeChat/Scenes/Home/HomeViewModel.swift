@@ -60,7 +60,7 @@ class HomeViewModel {
 
 extension HomeViewModel: ViewModelType {
     struct Input {
-        let viewDidLoad: Observable<Void>
+        let viewWillAppear: Observable<Void>
     }
 
     struct Output {
@@ -69,7 +69,7 @@ extension HomeViewModel: ViewModelType {
 
     func transform(_ input: Input) -> Output {
         let listMessages = self.listMessages
-        let bindTableData: Observable<[Message]> = input.viewDidLoad
+        let bindTableData: Observable<[Message]> = input.viewWillAppear
             .map {
                 return listMessages
             }

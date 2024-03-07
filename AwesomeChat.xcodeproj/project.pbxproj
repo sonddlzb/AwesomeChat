@@ -28,6 +28,7 @@
 		C8EE20D92B975A93004502BC /* UIViewConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20D82B975A93004502BC /* UIViewConstraints.swift */; };
 		C8EE20DB2B977658004502BC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20DA2B977658004502BC /* Message.swift */; };
 		C8EE20DE2B977A34004502BC /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20DD2B977A34004502BC /* MessageCell.swift */; };
+		C8EE20E02B98ADD4004502BC /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20DF2B98ADD4004502BC /* TableViewExtension.swift */; };
 		F420D66D990E1430FFABED67 /* Pods_AwesomeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672359DC84420D612AB83635 /* Pods_AwesomeChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		C8EE20D82B975A93004502BC /* UIViewConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewConstraints.swift; sourceTree = "<group>"; };
 		C8EE20DA2B977658004502BC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C8EE20DD2B977A34004502BC /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		C8EE20DF2B98ADD4004502BC /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +112,7 @@
 		C822017A2B9212BF00A1E236 /* AwesomeChat */ = {
 			isa = PBXGroup;
 			children = (
-				C8EE20D72B975A78004502BC /* Stevia+Ext */,
+				C8EE20D72B975A78004502BC /* Extension */,
 				C8EE20D22B94BECB004502BC /* Model */,
 				C82201982B92206D00A1E236 /* Scenes */,
 				C82201952B921FAF00A1E236 /* Application */,
@@ -184,12 +186,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		C8EE20D72B975A78004502BC /* Stevia+Ext */ = {
+		C8EE20D72B975A78004502BC /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				C8EE20D82B975A93004502BC /* UIViewConstraints.swift */,
+				C8EE20DF2B98ADD4004502BC /* TableViewExtension.swift */,
 			);
-			path = "Stevia+Ext";
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		C8EE20DC2B977A18004502BC /* Cell */ = {
@@ -373,6 +376,7 @@
 				C822019A2B92208100A1E236 /* SignInViewController.swift in Sources */,
 				C8EE20D42B94BEDC004502BC /* UserInfo.swift in Sources */,
 				C82201972B921FF600A1E236 /* ApplicationNavigator.swift in Sources */,
+				C8EE20E02B98ADD4004502BC /* TableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
