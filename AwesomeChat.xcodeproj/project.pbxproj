@@ -17,6 +17,13 @@
 		C822019C2B92209800A1E236 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822019B2B92209800A1E236 /* ViewModelType.swift */; };
 		C822019E2B9220F700A1E236 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822019D2B9220F700A1E236 /* SignInViewModel.swift */; };
 		C82201A02B92211400A1E236 /* SignInNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822019F2B92211400A1E236 /* SignInNavigator.swift */; };
+		C858914A2BA00D69004218EB /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85891492BA00D69004218EB /* UIViewControllerExtensions.swift */; };
+		C858914D2BA01142004218EB /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C858914C2BA01142004218EB /* ImagePickerViewController.swift */; };
+		C858914F2BA02881004218EB /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C858914E2BA02881004218EB /* ImagePickerViewModel.swift */; };
+		C85891512BA0288E004218EB /* ImagePickerNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85891502BA0288E004218EB /* ImagePickerNavigator.swift */; };
+		C8AC89B82BA29EAD007D04BC /* ImageChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8AC89B72BA29EAD007D04BC /* ImageChatCell.swift */; };
+		C8E1B4842BA16814001B8EA3 /* MediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1B4832BA16814001B8EA3 /* MediaCell.swift */; };
+		C8E1B4862BA179CE001B8EA3 /* PHAssetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E1B4852BA179CE001B8EA3 /* PHAssetExtensions.swift */; };
 		C8E44E2E2B9970860087FC1F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E44E2D2B9970860087FC1F /* ChatViewController.swift */; };
 		C8E44E302B99708F0087FC1F /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E44E2F2B99708F0087FC1F /* ChatViewModel.swift */; };
 		C8E44E332B9970A90087FC1F /* ChatNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E44E322B9970A90087FC1F /* ChatNavigator.swift */; };
@@ -35,6 +42,7 @@
 		C8EE20DB2B977658004502BC /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20DA2B977658004502BC /* Message.swift */; };
 		C8EE20DE2B977A34004502BC /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20DD2B977A34004502BC /* MessageCell.swift */; };
 		C8EE20E02B98ADD4004502BC /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20DF2B98ADD4004502BC /* TableViewExtension.swift */; };
+		C8EE20E22BA1E697004502BC /* MediaItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EE20E12BA1E697004502BC /* MediaItemViewModel.swift */; };
 		F420D66D990E1430FFABED67 /* Pods_AwesomeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672359DC84420D612AB83635 /* Pods_AwesomeChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +62,13 @@
 		C822019B2B92209800A1E236 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
 		C822019D2B9220F700A1E236 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		C822019F2B92211400A1E236 /* SignInNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInNavigator.swift; sourceTree = "<group>"; };
+		C85891492BA00D69004218EB /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		C858914C2BA01142004218EB /* ImagePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
+		C858914E2BA02881004218EB /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
+		C85891502BA0288E004218EB /* ImagePickerNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerNavigator.swift; sourceTree = "<group>"; };
+		C8AC89B72BA29EAD007D04BC /* ImageChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageChatCell.swift; sourceTree = "<group>"; };
+		C8E1B4832BA16814001B8EA3 /* MediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCell.swift; sourceTree = "<group>"; };
+		C8E1B4852BA179CE001B8EA3 /* PHAssetExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHAssetExtensions.swift; sourceTree = "<group>"; };
 		C8E44E2D2B9970860087FC1F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		C8E44E2F2B99708F0087FC1F /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		C8E44E322B9970A90087FC1F /* ChatNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatNavigator.swift; sourceTree = "<group>"; };
@@ -72,6 +87,7 @@
 		C8EE20DA2B977658004502BC /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		C8EE20DD2B977A34004502BC /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		C8EE20DF2B98ADD4004502BC /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		C8EE20E12BA1E697004502BC /* MediaItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,12 +166,33 @@
 		C82201982B92206D00A1E236 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				C858914B2BA0110E004218EB /* ImagePicker */,
 				C8E44E2C2B99706A0087FC1F /* Chat */,
 				C8EE20CB2B93359B004502BC /* SignUp */,
 				C8EE20C42B9225AD004502BC /* Home */,
 				C8EE20C32B9225A5004502BC /* SignIn */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C858914B2BA0110E004218EB /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				C8E1B4822BA167F5001B8EA3 /* Cell */,
+				C858914C2BA01142004218EB /* ImagePickerViewController.swift */,
+				C858914E2BA02881004218EB /* ImagePickerViewModel.swift */,
+				C85891502BA0288E004218EB /* ImagePickerNavigator.swift */,
+				C8EE20E12BA1E697004502BC /* MediaItemViewModel.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		C8E1B4822BA167F5001B8EA3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C8E1B4832BA16814001B8EA3 /* MediaCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		C8E44E2C2B99706A0087FC1F /* Chat */ = {
@@ -175,6 +212,7 @@
 				C8E44E352B999A830087FC1F /* SenderChatCell.swift */,
 				C8E44E372B999AC20087FC1F /* ReceiverChatCell.swift */,
 				C8E44E392B999B2D0087FC1F /* ChatCell.swift */,
+				C8AC89B72BA29EAD007D04BC /* ImageChatCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -224,7 +262,9 @@
 			isa = PBXGroup;
 			children = (
 				C8EE20D82B975A93004502BC /* UIViewConstraints.swift */,
+				C85891492BA00D69004218EB /* UIViewControllerExtensions.swift */,
 				C8EE20DF2B98ADD4004502BC /* TableViewExtension.swift */,
+				C8E1B4852BA179CE001B8EA3 /* PHAssetExtensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -392,11 +432,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C82201802B9212BF00A1E236 /* ViewController.swift in Sources */,
+				C85891512BA0288E004218EB /* ImagePickerNavigator.swift in Sources */,
+				C858914F2BA02881004218EB /* ImagePickerViewModel.swift in Sources */,
 				C8EE20D92B975A93004502BC /* UIViewConstraints.swift in Sources */,
 				C8EE20CA2B9225DC004502BC /* HomeViewModel.swift in Sources */,
+				C8AC89B82BA29EAD007D04BC /* ImageChatCell.swift in Sources */,
 				C8EE20DB2B977658004502BC /* Message.swift in Sources */,
 				C822019E2B9220F700A1E236 /* SignInViewModel.swift in Sources */,
+				C8E1B4842BA16814001B8EA3 /* MediaCell.swift in Sources */,
+				C8EE20E22BA1E697004502BC /* MediaItemViewModel.swift in Sources */,
 				C822017C2B9212BF00A1E236 /* AppDelegate.swift in Sources */,
+				C858914D2BA01142004218EB /* ImagePickerViewController.swift in Sources */,
 				C8E44E382B999AC20087FC1F /* ReceiverChatCell.swift in Sources */,
 				C82201A02B92211400A1E236 /* SignInNavigator.swift in Sources */,
 				C822019C2B92209800A1E236 /* ViewModelType.swift in Sources */,
@@ -413,6 +459,8 @@
 				C82201942B92191000A1E236 /* R.generated.swift in Sources */,
 				C822019A2B92208100A1E236 /* SignInViewController.swift in Sources */,
 				C8EE20D42B94BEDC004502BC /* UserInfo.swift in Sources */,
+				C8E1B4862BA179CE001B8EA3 /* PHAssetExtensions.swift in Sources */,
+				C858914A2BA00D69004218EB /* UIViewControllerExtensions.swift in Sources */,
 				C82201972B921FF600A1E236 /* ApplicationNavigator.swift in Sources */,
 				C8E44E3A2B999B2D0087FC1F /* ChatCell.swift in Sources */,
 				C8E44E302B99708F0087FC1F /* ChatViewModel.swift in Sources */,

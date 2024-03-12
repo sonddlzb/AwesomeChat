@@ -330,17 +330,17 @@
             filePath = "AwesomeChat/Scenes/Chat/ChatViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "transform(_:)"
-            landmarkType = "7">
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "Output"
+            landmarkType = "14">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "A6B23B9C-727C-40F5-9312-ED323697D01E"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AwesomeChat/Scenes/Chat/Cell/ReceiverChatCell.swift"
@@ -356,15 +356,488 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "F48A71D4-4A75-4177-ADA7-3272ED9C09E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "transform(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19667171-7987-414E-B514-92996EB640E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "transform(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "19667171-7987-414E-B514-92996EB640E2 - d5f53ca9df457a42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 () -&gt; RxSwift.Observable&lt;Swift.Optional&lt;AwesomeChat.ImagePickerViewController&gt;&gt; in AwesomeChat.ChatViewModel.transform(AwesomeChat.ChatViewModel.Input) -&gt; AwesomeChat.ChatViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "19667171-7987-414E-B514-92996EB640E2 - 40484b25f63fa1c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RxSwift.AnyObserver&lt;Swift.Optional&lt;AwesomeChat.ImagePickerViewController&gt;&gt;) -&gt; RxSwift.Disposable in closure #4 () -&gt; RxSwift.Observable&lt;Swift.Optional&lt;AwesomeChat.ImagePickerViewController&gt;&gt; in AwesomeChat.ChatViewModel.transform(AwesomeChat.ChatViewModel.Input) -&gt; AwesomeChat.ChatViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "19667171-7987-414E-B514-92996EB640E2 - 232441f8ebd24d31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.ChatViewModel.transform(AwesomeChat.ChatViewModel.Input) -&gt; AwesomeChat.ChatViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "784">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F9C5545-F5E5-4B90-9ABA-7B16CE78867A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Home/Cell/MessageCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "MessageCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "405E20A0-2EAB-45CD-B484-100CFB45C494"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "ChatViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "405E20A0-2EAB-45CD-B484-100CFB45C494 - abe6799e16f34814"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.ChatViewController.isShowingImagePicker.didset : Swift.Bool"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "405E20A0-2EAB-45CD-B484-100CFB45C494 - abe6799e16f34814"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.ChatViewController.isShowingImagePicker.didset : Swift.Bool"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "405E20A0-2EAB-45CD-B484-100CFB45C494 - abe6799e16f34814"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.ChatViewController.isShowingImagePicker.didset : Swift.Bool"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC1C6B0F-57AC-4D3A-ADB9-AF5AAB68AB25"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/Cell/ChatCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "layoutSubviews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC1C6B0F-57AC-4D3A-ADB9-AF5AAB68AB25 - 86f71370ed43c9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.ChatCell.layoutSubviews() -&gt; ()"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/Cell/ChatCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "BC1C6B0F-57AC-4D3A-ADB9-AF5AAB68AB25 - 86f71370ed43c9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.ChatCell.layoutSubviews() -&gt; ()"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/Cell/ChatCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2ED15758-CCD4-4468-A507-6BF26A4845C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "449"
+            endingLineNumber = "449"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2ED15758-CCD4-4468-A507-6BF26A4845C1 - 30f6f710cbcfc6a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.ChatViewController.bindViewModel() -&gt; ()"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "445"
+                  endingLineNumber = "445"
+                  offsetFromSymbolStart = "2776">
+               </Location>
+               <Location
+                  uuid = "2ED15758-CCD4-4468-A507-6BF26A4845C1 - 30f6f710cbcfc6a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.ChatViewController.bindViewModel() -&gt; ()"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "445"
+                  endingLineNumber = "445"
+                  offsetFromSymbolStart = "2940">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4467D458-B3E4-455B-AB0F-E5D76CED98FD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AE80E45-C3FE-415C-A18B-DD9F7EE8E802"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AwesomeChat/Scenes/Chat/ChatViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
             landmarkName = "transform(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7AE80E45-C3FE-415C-A18B-DD9F7EE8E802 - 232441f8ebd249d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AwesomeChat.ChatViewModel.transform(AwesomeChat.ChatViewModel.Input) -&gt; AwesomeChat.ChatViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "668">
+               </Location>
+               <Location
+                  uuid = "7AE80E45-C3FE-415C-A18B-DD9F7EE8E802 - b208e6843a31ffda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.String) -&gt; Swift.Array&lt;AwesomeChat.ChatItem&gt; in AwesomeChat.ChatViewModel.transform(AwesomeChat.ChatViewModel.Input) -&gt; AwesomeChat.ChatViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "7AE80E45-C3FE-415C-A18B-DD9F7EE8E802 - 9d17f7c0f0b10a8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.String, Swift.Array&lt;__C.PHAsset&gt;) -&gt; Swift.Array&lt;AwesomeChat.ChatItem&gt; in AwesomeChat.ChatViewModel.transform(AwesomeChat.ChatViewModel.Input) -&gt; AwesomeChat.ChatViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "7AE80E45-C3FE-415C-A18B-DD9F7EE8E802 - 9d17f7c0f0b10a8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.String, Swift.Array&lt;__C.PHAsset&gt;) -&gt; Swift.Array&lt;AwesomeChat.ChatItem&gt; in AwesomeChat.ChatViewModel.transform(AwesomeChat.ChatViewModel.Input) -&gt; AwesomeChat.ChatViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "1196">
+               </Location>
+               <Location
+                  uuid = "7AE80E45-C3FE-415C-A18B-DD9F7EE8E802 - 9d17f7c0f0b10a6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.String, Swift.Array&lt;__C.PHAsset&gt;) -&gt; Swift.Array&lt;AwesomeChat.ChatItem&gt; in AwesomeChat.ChatViewModel.transform(AwesomeChat.ChatViewModel.Input) -&gt; AwesomeChat.ChatViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "336">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E94CC95B-8559-4416-9C51-9D6A22D5911B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "408"
+            endingLineNumber = "408"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6DB0034-DC6A-4673-98ED-2E1EAD3B51F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/ImagePicker/ImagePickerViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "transform(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6DB0034-DC6A-4673-98ED-2E1EAD3B51F1 - 341484c9eb1fbe94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AwesomeChat.MediaItemViewModel) -&gt; () in closure #1 (Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Array&lt;__C.PHAsset&gt; in AwesomeChat.ImagePickerViewModel.transform(AwesomeChat.ImagePickerViewModel.Input) -&gt; AwesomeChat.ImagePickerViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/ImagePicker/ImagePickerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "196">
+               </Location>
+               <Location
+                  uuid = "D6DB0034-DC6A-4673-98ED-2E1EAD3B51F1 - d1c9e6fbf7a1e2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Array&lt;__C.PHAsset&gt; in AwesomeChat.ImagePickerViewModel.transform(AwesomeChat.ImagePickerViewModel.Input) -&gt; AwesomeChat.ImagePickerViewModel.Output"
+                  moduleName = "AwesomeChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/daoson/Desktop/IOS_learning/AwesomeChat/AwesomeChat/Scenes/ImagePicker/ImagePickerViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "98C324F1-9BAD-4760-8E16-ABF0221C36BD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/ChatViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "transform(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "796DCBCE-8E04-4D7A-9DDF-F202246B3B82"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "475"
+            endingLineNumber = "475"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47D1B139-BF5D-4E3E-8810-12F84C9B926A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/ChatViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "473"
+            endingLineNumber = "473"
+            landmarkName = "bindViewModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8DD10BC-42B8-4925-A25C-6B5AF371155F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AwesomeChat/Scenes/Chat/Cell/ImageChatCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "bind(chatItem:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

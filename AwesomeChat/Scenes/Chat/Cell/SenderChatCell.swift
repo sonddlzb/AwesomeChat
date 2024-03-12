@@ -49,6 +49,7 @@ class SenderChatCell: ChatCell {
     }
 
     func bind(chatItem: ChatItem) {
+        self.layoutIfNeeded()
         self.messageLbl.text = chatItem.content
         self.timeLbl.text = chatItem.time
     }

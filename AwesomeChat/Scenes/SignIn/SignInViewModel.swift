@@ -32,8 +32,6 @@ extension SignInViewModel: ViewModelType {
 
 extension SignInViewModel {
     func transform(_ input: Input) -> Output {
-        let navigator = self.navigator
-
         // MARK: - remove weak self
         let pushToHome: Observable<UIViewController?> = input.didTapSignIn
             .flatMap { [weak self] (email, password) in

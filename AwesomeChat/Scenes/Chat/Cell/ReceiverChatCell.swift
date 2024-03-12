@@ -63,6 +63,7 @@ class ReceiverChatCell: ChatCell {
     }
 
     func bind(message: Message, chatItem: ChatItem) {
+        self.layoutIfNeeded()
         timeLbl.text = chatItem.time
         messageLbl.text = chatItem.content
         avtImgView.image = message.image()

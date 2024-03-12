@@ -161,4 +161,16 @@ extension UIView {
             
             return constraints
         }
+
+    func bottomConstraint() -> NSLayoutConstraint? {
+        var targetConstraint: NSLayoutConstraint?
+        self.constraints.forEach { (constraint) in
+            if (constraint.firstItem as? UIView) == self &&
+                constraint.firstAttribute == NSLayoutConstraint.Attribute.bottom {
+                targetConstraint = constraint
+            }
+        }
+
+        return targetConstraint
+    }
 }

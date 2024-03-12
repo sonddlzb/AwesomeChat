@@ -16,7 +16,7 @@ class ChatCell: UITableViewCell {
 
     override func layoutSubviews() {
         super.layoutSubviews()
-        containerMessage.layer.cornerRadius = 30.0
+        containerMessage.layer.cornerRadius = containerMessage.frame.height/2
     }
 
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
