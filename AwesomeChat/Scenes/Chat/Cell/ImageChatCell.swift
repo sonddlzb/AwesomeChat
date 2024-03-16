@@ -37,6 +37,7 @@ class ImageChatCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         containerImage.layer.cornerRadius = 12.0
+        imgView.layer.cornerRadius = 12.0
     }
 
     func setUpViews() {
@@ -63,10 +64,10 @@ class ImageChatCell: UITableViewCell {
         containerImage.Right == containerView.Right - 12.0
         containerImage.Bottom == containerView.Bottom - 20.0
 
-        imgView.Top == containerImage.Top + 10.0
-        imgView.Bottom == containerImage.Bottom - 10.0
-        imgView.Left == containerImage.Left + 10.0
-        imgView.Right == containerImage.Right - 10.0
+        imgView.Top == containerImage.Top
+        imgView.Bottom == containerImage.Bottom
+        imgView.Left == containerImage.Left
+        imgView.Right == containerImage.Right
 
         timeLbl.Right == containerImage.Right
         timeLbl.Top == containerImage.Bottom + 3.0
@@ -83,7 +84,7 @@ class ImageChatCell: UITableViewCell {
         }
 
         containerImage.style {
-            $0.backgroundColor = R.color.violet_blue()
+            $0.backgroundColor = .clear
             $0.layer.cornerRadius = 12.0
         }
 
@@ -91,6 +92,10 @@ class ImageChatCell: UITableViewCell {
             $0.textColor = R.color.spalish_gray()
             $0.textAlignment = .left
             $0.font = .systemFont(ofSize: 12.0, weight: .regular)
+        }
+
+        imgView.style {
+            $0.layer.cornerRadius = 12.0
         }
     }
 
@@ -109,6 +114,7 @@ class ImageChatCell: UITableViewCell {
                     let height = image.size.height
                     self.containerImage.Width == containerView.Width * (width > height ? 0.5 : 0.25)
                     self.layoutIfNeeded()
+                    self.containerImage.layer.cornerRadius = 12.0
                 })
                 .disposed(by: disposeBag)
         }

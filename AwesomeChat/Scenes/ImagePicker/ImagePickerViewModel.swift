@@ -53,7 +53,8 @@ extension ImagePickerViewModel: ViewModelType {
                 }
 
                 return listSelectedAssets
-            }.bind(to: selectedPHassets)
+            }
+            .bind(to: selectedPHassets)
             .disposed(by: disposeBag)
 
         let bindCollectionData = input.viewWillAppear
@@ -72,8 +73,8 @@ extension ImagePickerViewModel: ViewModelType {
                                 let isSelecting = input.selectedIDs
                                     .asDriver()
                                     .map { selectedIDs -> Bool in
-                                    return selectedIDs.contains(object.localIdentifier)
-                                }
+                                        return selectedIDs.contains(object.localIdentifier)
+                                    }
 
                                 self.listMediaItems
                                     .append(MediaItemViewModel(asset: object,

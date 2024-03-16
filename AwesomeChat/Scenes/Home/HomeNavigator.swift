@@ -14,7 +14,10 @@ protocol HomeNavigatorType {
 struct HomeNavigator: HomeNavigatorType {
     func pushToChat(message: Message) -> ChatViewController {
         let chatNavigator = ChatNavigator()
-        let chatViewModel = ChatViewModel(navigator: chatNavigator, message: message)
+        let chatRepository = ChatRepository()
+        let chatViewModel = ChatViewModel(navigator: chatNavigator,
+                                          message: message,
+                                          repository: chatRepository)
         return ChatViewController(viewModel: chatViewModel)
     }
 }

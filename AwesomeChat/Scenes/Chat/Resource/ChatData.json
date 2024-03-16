@@ -1,0 +1,34 @@
+{
+    "data": [
+      {
+        "content": "Làm xong bài tập thầy Hoàng giao chưa??",
+        "isSender": false,
+        "time": "10:03"
+      },
+      {
+        "content": "Ko biết làm. Tí tôi qua nhà bà chép",
+        "isSender": true,
+        "time": ""
+      },
+      {
+        "content": "Đc ko nè :(",
+        "isSender": true,
+        "time": "10:05"
+      },
+      {
+        "content": "Mang trà sữa đến thì cho chép nha",
+        "isSender": false,
+        "time": "10:06"
+      },
+      {
+        "content": "OK luôn",
+        "isSender": true,
+        "time": "10:07"
+      },
+      {
+        "content": "Đến chưa vậy?",
+        "isSender": false,
+        "time": "11:52"
+      }
+    ]
+}

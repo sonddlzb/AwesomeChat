@@ -10,50 +10,21 @@ import RxSwift
 import RxCocoa
 import Photos
 
-struct ChatItem {
-    var content: String
-    var isSender: Bool
-    var time: String
-    var asset: PHAsset?
-}
-
 class ChatViewModel {
     var navigator: ChatNavigatorType
+    var repository: ChatRepositoryType
     var message: Message
-    var listChatItems: [ChatItem] = []
     var disposeBag = DisposeBag()
 
-    init(navigator: ChatNavigatorType, message: Message) {
+    init(navigator: ChatNavigatorType, message: Message, repository: ChatRepositoryType) {
         self.navigator = navigator
         self.message = message
-        self.createFakeData()
-    }
-
-    func createFakeData() {
-        self.listChatItems = [
-            ChatItem(content: "Làm xong bài tập thầy Hoàng giao chưa??",
-                     isSender: false, 
-                     time: "10:03"),
-            ChatItem(content: "Ko biết làm. Tí tôi qua nhà bà chép",
-                     isSender: true,
-                     time: ""),
-            ChatItem(content: "Đc ko nè :(",
-                     isSender: true,
-                     time: "10:05"),
-            ChatItem(content: "Mang trà sữa đến thì cho chép nha",
-                     isSender: false,
-                     time: "10:06"),
-            ChatItem(content: "OK luôn",
-                     isSender: true,
-                     time: "10:07"),
-            ChatItem(content: "Đến chưa vậy?",
-                     isSender: false,
-                     time: "11:52")
-        ]
+        self.repository = repository
     }
 
     func getHeightForRow(at index: Int) -> CGFloat {
-        if self.listChatItems[index].asset != nil {
+        let listChatItems = repository.getData()
+        if listChatItems[index].asset != nil {
             return 160.0
         } else {
             let cellWidth = UIScreen.main.bounds.width * 285.0 / 375.0 - 30.0
@@ -87,9 +58,9 @@ extension ChatViewModel: ViewModelType {
     }
 
     func transform(_ input: Input) -> Output {
-        let message = self.message
-        let listChatItems = self.listChatItems
-        let navigator = self.navigator
+        let message = message
+        let listChatItems = repository.getData()
+        let navigator = navigator
 
         let bindMessageData = input.viewWillAppear
             .map {
@@ -114,7 +85,7 @@ extension ChatViewModel: ViewModelType {
                     let newItem = ChatItem(content: message,
                                            isSender: true,
                                            time: dateFormatter.string(from: Date()))
-                    self.listChatItems.append(newItem)
+                    self.repository.addNewItem(newItem)
                 }
 
                 selectedAssets.forEach { asset in
@@ -122,17 +93,18 @@ extension ChatViewModel: ViewModelType {
                                            isSender: true,
                                            time: dateFormatter.string(from: Date()),
                                            asset: asset)
-                    self.listChatItems.append(newItem)
+                    self.repository.addNewItem(newItem)
                 }
 
-                return self.listChatItems
+                return self.repository.getData()
             }
 
         let showImagePicker: Observable<ImagePickerViewController?> = input.didTapAddMedia
             .map { isShowingImagePicker in
                 if !isShowingImagePicker {
-                    let imagePickerVC = navigator.showImagePicker(isShowingImagePicker: input.didTapAddMedia,
-                                                                  selectedPHassets: input.selectedPHassets)
+                    let imagePickerVC = navigator.showImagePicker(
+                        isShowingImagePicker: input.didTapAddMedia,
+                        selectedPHassets: input.selectedPHassets)
                     return imagePickerVC
                 } else {
                     return nil

@@ -307,8 +307,8 @@ class SignInViewController: UIViewController {
             .drive { [weak self] viewController in
                 if let alertVC = viewController as? UIAlertController {
                     self?.present(alertVC, animated: true)
-                } else if let homeVC = viewController as? HomeViewController {
-                    self?.navigationController?.pushViewController(homeVC, animated: true)
+                } else if let mainVC = viewController as? MainViewController {
+                    self?.navigationController?.pushViewController(mainVC, animated: true)
                 }
             }
             .disposed(by: self.disposeBag)

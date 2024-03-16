@@ -11,6 +11,7 @@ protocol SignInNavigatorType {
     func pushToHome(userInfo: UserInfo) -> HomeViewController
     func pushToSignUp() -> SignUpViewController
     func presentAlert(signState: SignState) -> UIAlertController
+    func pushToMain(userInfo: UserInfo) -> MainViewController
 }
 
 struct SignInNavigator: SignInNavigatorType {
@@ -47,5 +48,12 @@ struct SignInNavigator: SignInNavigatorType {
         let okAction = UIAlertAction(title: "Ok", style: .cancel)
         alertVC.addAction(okAction)
         return alertVC
+    }
+
+    func pushToMain(userInfo: UserInfo) -> MainViewController {
+        let mainNavigator = MainNavigator()
+        let mainViewModel = MainViewModel(navigator: mainNavigator,
+                                          userInfo: userInfo)
+        return MainViewController(viewModel: mainViewModel)
     }
 }

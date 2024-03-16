@@ -39,7 +39,7 @@ extension SignInViewModel {
                     .map { (userInfo, signState) in
                         if let userInfo = userInfo {
                             print("Sign in successfully with user \(userInfo.name)")
-                            return self?.navigator.pushToHome(userInfo: userInfo)
+                            return self?.navigator.pushToMain(userInfo: userInfo)
                         } else {
                             return self?.navigator.presentAlert(signState: signState)
                         }
